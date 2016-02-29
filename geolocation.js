@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function(){
   
   if( navigator.geolocation ){ 
     //code goes here to find position
-    var params = {enableHighAccuracy: false, timeout:3600, maximumAge:60000};
+    var params = {enableHighAccuracy: false, timeout:4000, maximumAge:60000};
     //enableHighAccuracy means try to use GPS and drain the battery
     //for improved accuracy within a few meters.
     //maximum age is how long to cache the location info
